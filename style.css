@@ -1,0 +1,22 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(135, 0, 0);
+}
