@@ -73,16 +73,45 @@ nav a:hover{
 
 
 .hero{
-    background-image: url('images/michael-1Ki66S0JSGM-unsplash.jpg');
+    background-image: url('images/jason-dent-itA0ybdIDTs-unsplash.jpg ');
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
-    background-color: rgba(10, 10, 10, 0.881);
-    height: 80vh;
+    background-color: rgba(69, 68, 68, 0.881);
+    height: 85vh;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 150px; 
+    animation-name: hero;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    /* animation: kenBurns 15s ease-in-out infinite alternate; */
+
 }
 
+
+
+/* 
+@keyframes kenBurns {
+  0% {
+    background-size: 110%;
+    background-position: center top;
+  }
+  100% {
+    background-size: 130%;
+    background-position: center bottom;
+  }
+} */
+
+
+@keyframes hero{
+  60% {
+   background-image: url(images/william-william-NndKt2kF1L4-unsplash.jpg);
+
+  }
+  100% {
+    background-image: url(images/ruwell-salatan-kqo8P16y0YY-unsplash.jpg);
+  }
+}
 .light{
    background: linear-gradient(90deg, #1e6be7, #00c6ff);
   -webkit-background-clip: text;
@@ -385,12 +414,12 @@ td{
 
 
 .card-cargo{
-  background-image: url('images/frank-mckenna-tjX_sniNzgQ-unsplash.jpg');
+  background-image: url('images/frank-mckenna-tjX_sniNzgQ-unsplash\ \(1\).webp');
   background-color: rgba(18, 13, 13, 0.6);
 }
 
 .card-warehousing{
-  background-image: url('images/dennis-siqueira-QnMeRW36-zY-unsplash.jpg');
+  background-image: url('images/dennis-siqueira-QnMeRW36-zY-unsplash.webp');
   background-color: rgba(18, 13, 13, 0.6);
 }
 
@@ -401,16 +430,307 @@ td{
 }
 
 .card-distribution{
-  background-image: url('images/henry-mollers-hsRMfMtFxvM-unsplash.jpg');
+  background-image: url('images/henry-mollers-hsRMfMtFxvM-unsplash\ \(1\).jpg');
   background-color: rgba(18, 13, 13, 0.6);
 }
 
 .card-packaging{
-  background-image: url('images/tarah-dane-xudcDDtjY2c-unsplash.jpg ');
+  background-image: url('images/tarah-dane-xudcDDtjY2c-unsplash.webp');
   background-color: rgba(18, 13, 13, 0.6);
 }
 
 .card-freight-forwarding{
-  background-image: url('images/quan-pham-VCKTpVoXtb8-unsplash (1).jpg');
+  background-image: url('images/quan-pham-VCKTpVoXtb8-unsplash\ \(1\).webp');
   background-color: rgba(18, 13, 13, 0.6);
+}
+
+.call-to-action {
+  background-image: url(images/william-william-NndKt2kF1L4-unsplash.jpg );
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(7, 4, 38, 0.833);
+  color: #fff;
+  text-align: center;
+  padding: 100px 0px;
+  width: 100%;
+}
+
+.call-to-action h2{
+  font-size: 32px;
+  margin-top: -50px;
+  margin-bottom: 5px;
+}
+
+.call-to-action p {
+  color: #aca5a5;
+  margin-bottom: 40px;
+}
+
+.primary {
+  color: #fff;
+  border: 2px solid #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  width: 120px;
+  padding: 10px;
+  font-weight: 400;
+  height: 40vh;
+}
+
+.primary:hover{
+  background-color: #0000ff;
+  border:none;
+}
+
+/* FEATUREX */
+.features {
+  padding: 80px 0;
+}
+
+.features-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.features-heading h2 {
+  font-size: 32px;
+  color: #1f0874;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.features-heading p {
+  color: #555;
+  font-size: 16px;
+}
+
+.features-main {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.features-img {
+  flex: 1;
+  height: 380px;
+  background-image: url('images/robinson-greig-eeetAHMGIQo-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.features-all{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.features-starting-body h2 {
+  font-size: 26px;
+  color: #1f0874;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.features-starting-body p {
+  font-size: 15px;
+  color: #555;
+  font-style: italic;
+}
+
+.features-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.features-item i {
+  color: #1d2ba5;
+  font-size: 16px;
+}
+
+.features-item p {
+  font-size: 15px;
+  color: #444;
+}
+
+/* PRICING */ 
+
+.money{
+  text-align: center;
+}
+.money h2{
+  color: #210f67;
+  font-size: 32px;
+}
+
+.money p{
+  color: #000000d4;
+}
+
+.pricing{
+  padding: 10px;
+}
+
+.pricing-main {
+    display: flex;
+    gap: 50px;
+    align-items:flex-start;
+}
+
+.pricing-items {
+    margin-top: 60px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 30px;
+    width: 35%;
+    flex-shrink: 0;
+}
+
+.pricing-items ul{
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.pricing-items ul li{
+  padding: 15px;
+  font-size: 15px;
+  color: #444;
+}
+
+.pricing-items a{
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 15px;
+  display: block;
+  color: #040434;
+  font-weight: 600;
+
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+  background: #040434;
+   padding: 40px 0 20px 0;
+}
+
+.footer .container {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.pricing-items h3 {
+    font-size: 18px;
+    color: #040434d7;
+    margin-bottom: 15px;
+}
+
+.pricing-items p {
+    font-size: 32px;
+    font-weight: 700;
+    color: #040434;
+    margin-bottom: 25px;
+}
+
+.footer-main {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.footer-items1 {
+  flex: 1;
+}
+
+.footer-items1 h2 {
+  color: #fcfcfd;
+  font-size: 22px;
+  margin-bottom: 1px;
+}
+
+.footer-items1 p {
+  color: rgb(180, 173, 173);
+  margin-bottom: 20px;
+}
+
+.footer-items1 .desc {
+  color: rgb(225, 219, 219);
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+.footer-items2 {
+  flex: 2;
+}
+
+.footer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.footer-table th {
+  text-align: left;
+  padding-bottom: 15px;
+  color: antiquewhite;
+  font-size: 15px;
+}
+
+.footer-table td {
+  padding: 8px 0;
+  font-size: 14px;
+  color: rgb(202, 195, 195);
+  cursor: pointer;
+}
+
+.footer-table xtd:hover {
+  color: #0DB79D;
+}
+
+.end{
+  text-align: center;
+  color: white;
+}
+.container hr {
+  border: none;
+  border-top: 1px solid #ccccccb8;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.footer .container:last-child {
+  display: block;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.red-wine{
+  font-size: 14px;
+}
+
+.dummy{
+  font-size: 14px;
+  color: lightslategray;
 }
